@@ -78,7 +78,7 @@ const Todo = () => {
       };
       fetch();
     }
-  }, [submit]);
+  }, [submit,del]);
 
   return (
     <>
